@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.4s ease;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+}
+.hidden{
+    position: relative;
+    display: flex;
+    width: 352px;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: lightcoral
+}
+input{
+    height: 45px;
+    width: 250px;
+}
+button{
+    width: 75px;
+    height: 45px;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn_div{
+    width: 350px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.step_one{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 550px;
+    animation-name: circle;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+    background-color: white;
+}
+.step_two{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 550px;
+    animation-name: circle;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+    background-color: white;
+}
+.step_tree{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 550px;
+    animation-name: circle;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+    background-color: white;
+
+}
+.none{
+    display: none;
+}
+.none_step{
+    display: none;
+}
+
+.div_line{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    width: 810px;
+    height: 100px;
+}
+.one{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.linia{
+    height: 15px;
+    width: 270px;
+    background-color: white;
+}
+.kub{
+    background-color: #59d016;
+}
+
+@keyframes circle{
+
+    0%{
+        right: 0;
+    }
+    25%{
+        right: 25%;
+    }
+    50%{
+        right: 50%;
+        border-radius: 1px;
+    }
+    75%{
+        right: 75%;
+    }
+    100%{
+        right: 100%;
+    }
+}
+.animation__circle{
+    animation: circle 1s linear infinite normal running 0s none;
+}
+

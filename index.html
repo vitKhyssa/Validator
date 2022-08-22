@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="div_line">
+    <div class="one kub">1</div>
+    <div class="linia pervaia"></div>
+    <div class="one kub_dva">2</div>
+    <div class="linia vtoraia"></div>
+    <div class="one kub_tri">3</div>
+</div>
+<div class="hidden">
+<div class="step_one">
+    <h1>Create Your Account</h1>
+    <span>Registration panel. Step 1</span>
+
+    <input type="email" placeholder="Em@il.com" id="mail" >
+    <span id="ok_mail"></span>
+    <input type="password" placeholder="Password" id="password">
+    <span id="ok_password"></span>
+    <input type="password" placeholder="Confirm Password" id="confirm">
+    <span id="ok_confirm"></span>
+
+    <div class="btn_div">
+        <button id="btn_next_one">Next</button>
+    </div>
+</div>
+<div class="step_two">
+    <h1>Social Profiles</h1>
+    <span>Your presence on the social Network</span>
+
+    <input type="text" placeholder="Twitter">
+    <input type="text" placeholder="Facebook">
+    <input type="text" placeholder="GOOGLE +">
+
+    <div class="btn_div">
+    <button id="btn_last_one">Previous</button>
+    <button id="btn_next_two">Next</button>
+    </div>
+</div>
+<div class="step_tree">
+    <h1>Personal Details</h1>
+    <span>We will never sell it</span>
+    <input type="text" placeholder="First Name">
+    <input type="text" placeholder="Last Name">
+    <input type="tel" placeholder="Phone" pattern="[0-9]+">
+    <textarea style="width:250px;height: 100px" placeholder="Address"></textarea>
+    <div class="btn_div">
+        <button id="btn_last_two">Previous</button>
+        <button id="btn_next_tree">Submit</button>
+    </div>
+</div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
